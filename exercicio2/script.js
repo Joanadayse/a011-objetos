@@ -13,3 +13,13 @@ const filme = {
 };
 
 // respostas aqui ⬇️
+
+console.log(filme.elenco[0]) 
+
+console.log("\n Nome do último ator:",filme.elenco[(filme.elenco.length)-1])
+// o primeiro é o array
+// e o segundo é o array - 1 (posição que eu quero) 
+
+console.log(filme.transmissoesHoje)
+
+console.log(filme.transmissoesHoje[1])
